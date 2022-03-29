@@ -1,3 +1,29 @@
 body {
   background-color: aquamarine;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #bfb3d1;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav-links{
+    display: flex;
+    gap: 18px;
+    text-decoration: none;
+    list-style-type: none;
 }
