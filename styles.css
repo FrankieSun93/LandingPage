@@ -1,5 +1,5 @@
 body {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
   flex-flow: column wrap;
   padding: 0px;
@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 100px;
+  height: 50px;
   font-size: 18px;
 }
 
@@ -46,7 +46,6 @@ img {
 
 .hero {
   display: flex;
-
   justify-content: space-between;
   gap: 30px;
   padding: 100px;
@@ -94,6 +93,37 @@ img {
     gap: 32px;
     text-align: center;
 }
+
 .info {
     max-width: 200px;
+}
+
+.quote {
+  padding: 100px;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  text-align: center;
+  font-style: italic;
+}
+
+.action {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882F6;
+  margin: 100px 200px;
+  padding: 50px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.whiteborder{
+  border: 2px solid white
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px
 }
